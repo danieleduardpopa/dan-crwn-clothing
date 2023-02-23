@@ -10,7 +10,9 @@
     top: 90px;
     right: 40px;
     z-index: 5;
-  
+    overflow:  auto ;
+    -ms-overflow-style: none;
+
     .empty-message {
       font-size: 18px;
       margin: 50px auto;
@@ -20,11 +22,15 @@
       height: 240px;
       display: flex;
       flex-direction: column;
-      overflow: scroll;
+      overflow: auto;
     }
   
     button {
       margin-top: auto;
     }
+  }
+
+  .cart-dropdown-container::-webkit-scrollbar {
+    display: none;
   }
   
