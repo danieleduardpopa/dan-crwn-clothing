@@ -22,4 +22,4 @@ const CategoryPreview = ({ title, products }) => {
     )
 }
 
-export default CategoryPreview
+export default CategoryPreview;
