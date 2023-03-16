@@ -9,7 +9,6 @@ import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component
 import { selectCurrentUser } from '../../store/user/user.selector';
 import { signOutStart } from '../../store/user/user.action';
 import { selectIsCartOpen } from '../../store/cart/cart.selector'
-import { signOutUser } from "../../utils/firebase/firebase.utils";
 import { 
     NavigationContainer, 
     LogoContainer, 
